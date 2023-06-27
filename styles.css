@@ -1,0 +1,97 @@
+body {
+    font-family: 'Darker Grotesque', Outfit, Verdana, sans-serif;
+    background-color: #2e3192;
+    background-image: linear-gradient(135deg, #2e3192, #0077b6, #03045e);
+    /*#2e3192*/
+    margin: 0px 0px;
+}
+
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    transform: scale(1.5, 1.5);
+}
+
+li {
+    display: inline;
+    margin: 24px;
+}
+
+address {
+    text-decoration: none;
+}
+
+.nav-header {
+    height: 80px;
+    background-color: transparent;
+    overflow: visible;
+    box-sizing: border-box;
+    padding: 16px 32px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.nav-logo {
+    height: 100%;
+    float: left;
+}
+
+.nav-title {
+    height: 100%;
+    margin: 0px 20px;
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+    float: left;
+}
+
+.short-description {
+    font-size: 8vw;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    margin: 0px;
+    text-shadow: 8px 8px #03055e3b;
+    transition: transform 100ms;
+    transition-timing-function: linear;
+}
+
+.short-description:hover{
+    transform: skew(-10deg, 1deg);
+}
+.short-skill-description {
+    font-size: 2vw;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    margin: 0px;
+}
+
+a.social-link {
+    height: 100%;
+    color: #fff;
+    font-size: 20px;
+    margin: 0px 16px;
+    transition: color 1s, transform 0.4s;
+}
+
+a[title="LinkedIn"]:hover{
+    color: #0077b5;
+}
+
+a[title="Instagram"]:hover{
+    color: #d6249f;
+}
+
+a[title="Twitter"]:hover{
+    color: #1DA1F2;
+}
+
+abbr {
+    text-decoration: none;
+}
