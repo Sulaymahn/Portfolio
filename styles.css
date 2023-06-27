@@ -96,7 +96,11 @@ a.social-link {
     color: #fff;
     font-size: 20px;
     margin: 0px 16px;
-    transition: color 1s, transform 0.4s;
+    transition: color 1s, transform 0.4s, text-shadow 0.2s;
+}
+
+a.social-link:hover{
+    text-shadow: 2px 2px #eeeeee11;
 }
 
 a[title="LinkedIn"]:hover {
