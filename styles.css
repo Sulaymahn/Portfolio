@@ -1,9 +1,27 @@
+@keyframes bg-anim {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 body {
     font-family: 'Darker Grotesque', Outfit, Verdana, sans-serif;
     background-color: #2e3192;
-    background-image: linear-gradient(135deg, #2e3192, #0077b6, #03045e);
-    /*#2e3192*/
+    background-image: linear-gradient(135deg, #2e3192, #0077b6, blue);
+    background-size: 400%;
+    animation-name: bg-anim;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
     margin: 0px 0px;
+    transition: background-image 0.5s;
 }
 
 
@@ -61,9 +79,10 @@ address {
     transition-timing-function: linear;
 }
 
-.short-description:hover{
+.short-description:hover {
     transform: skew(-10deg, 1deg);
 }
+
 .short-skill-description {
     font-size: 2vw;
     text-align: center;
@@ -80,15 +99,15 @@ a.social-link {
     transition: color 1s, transform 0.4s;
 }
 
-a[title="LinkedIn"]:hover{
+a[title="LinkedIn"]:hover {
     color: #0077b5;
 }
 
-a[title="Instagram"]:hover{
+a[title="Instagram"]:hover {
     color: #d6249f;
 }
 
-a[title="Twitter"]:hover{
+a[title="Twitter"]:hover {
     color: #1DA1F2;
 }
 
