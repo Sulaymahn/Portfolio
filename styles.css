@@ -74,8 +74,8 @@ address {
     float: left;
 }
 
-.short-description {
-    font-size: 8vw;
+.name-header {
+    font-size: 10vw;
     text-align: center;
     color: white;
     font-weight: 900;
@@ -85,7 +85,7 @@ address {
     transition-timing-function: linear;
 }
 
-.short-description:hover {
+.name-header:hover {
     transform: skew(-10deg, 1deg);
 }
 
