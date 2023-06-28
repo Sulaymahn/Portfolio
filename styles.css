@@ -21,7 +21,7 @@
 body {
     font-family: 'Darker Grotesque', Outfit, Verdana, sans-serif;
     background-color: var(--primarycolor);
-    background-image: linear-gradient(135deg, var(--primarycolor), var(--secondarycolor), orange, var(--tertiarycolor));
+    background-image: linear-gradient(135deg, var(--primarycolor), var(--secondarycolor), var(--tertiarycolor));
     background-size: 500%;
     animation-name: bg-anim;
     animation-duration: 15s;
@@ -29,8 +29,6 @@ body {
     margin: 0px 0px;
     transition: background-image 0.5s;
 }
-
-
 
 a:link {
     text-decoration: none;
@@ -58,20 +56,20 @@ address {
     position: fixed;
     top: 0px;
     width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 .nav-logo {
     height: 100%;
-    float: left;
 }
 
 .nav-title {
-    height: 100%;
     margin: 0px 20px;
     font-size: 2em;
     color: white;
     font-weight: bold;
-    float: left;
+    align-self: center;
 }
 
 .name-header {
@@ -123,4 +121,33 @@ a[title="Twitter"]:hover {
 
 abbr {
     text-decoration: none;
+}
+
+.copyright{
+    text-align: center; 
+    margin: auto; 
+    color: #fff; 
+    float: left;
+}
+
+@media screen and (max-width: 800px){
+    .nav-header {
+        justify-content: center;
+    }
+
+    .copyright{
+        float: none;
+        width: 100%;
+    }
+
+    .name-header{
+        font-size: 80px;
+        line-height: 70px;
+        margin: 0px 20px;
+    }
+
+    .short-skill-description{
+        font-size: 32px;
+        margin: 20px;
+    }
 }
