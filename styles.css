@@ -12,10 +12,16 @@
     }
 }
 
+:root{
+    --primarycolor: #2e3192;
+    --secondarycolor: #0077b6;
+    --tertiarycolor: blue;
+}
+
 body {
     font-family: 'Darker Grotesque', Outfit, Verdana, sans-serif;
-    background-color: #2e3192;
-    background-image: linear-gradient(135deg, #2e3192, #0077b6, blue);
+    background-color: var(--primarycolor);
+    background-image: linear-gradient(135deg, var(--primarycolor), var(--secondarycolor), var(--tertiarycolor));
     background-size: 500%;
     animation-name: bg-anim;
     animation-duration: 10s;
