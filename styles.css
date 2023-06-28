@@ -79,8 +79,8 @@ address {
     font-weight: 900;
     margin: 0px;
     text-shadow: 8px 8px #03055e3b;
-    transition: transform 100ms;
-    transition-timing-function: linear;
+    transition: transform 100ms, font-size 0.6s;
+    transition-timing-function: cubic;
 }
 
 .name-header:hover {
@@ -93,6 +93,8 @@ address {
     color: white;
     font-weight: 400;
     margin: 0px;
+    transition: font-size 0.6s;
+    transition-timing-function: cubic;
 }
 
 a.social-link {
@@ -135,13 +137,17 @@ abbr {
         justify-content: center;
     }
 
+    .nav-title{
+        display: none;
+    }
+
     .copyright{
         float: none;
         width: 100%;
     }
 
     .name-header{
-        font-size: 80px;
+        font-size: 100px;
         line-height: 70px;
         margin: 0px 20px;
     }
