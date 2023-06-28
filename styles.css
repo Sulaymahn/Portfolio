@@ -15,16 +15,16 @@
 :root{
     --primarycolor: #2e3192;
     --secondarycolor: #0077b6;
-    --tertiarycolor: red;
+    --tertiarycolor: #ff203e;
 }
 
 body {
     font-family: 'Darker Grotesque', Outfit, Verdana, sans-serif;
     background-color: var(--primarycolor);
-    background-image: linear-gradient(135deg, var(--primarycolor), var(--secondarycolor), var(--tertiarycolor));
+    background-image: linear-gradient(135deg, var(--primarycolor), var(--secondarycolor), orange, var(--tertiarycolor));
     background-size: 500%;
     animation-name: bg-anim;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
     margin: 0px 0px;
     transition: background-image 0.5s;
