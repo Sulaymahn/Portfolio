@@ -143,6 +143,11 @@ abbr {
         justify-content: center;
     }
 
+    body{
+        height: 100svh;
+        width: 100svw;
+    }
+
     .nav-title{
         display: none;
     }
