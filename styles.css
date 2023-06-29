@@ -18,6 +18,10 @@
     --tertiarycolor: #ff203e;
 }
 
+html{
+    overflow: hidden;
+}
+
 body {
     font-family: 'Darker Grotesque', Outfit, Verdana, sans-serif;
     background-color: var(--primarycolor);
