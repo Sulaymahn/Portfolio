@@ -1,8 +1,8 @@
 body{
-    overflow-y: auto;
+    overflow:inherit;
 }
 
-.about-me {
+.privacy-statement {
     font-size: 1.4em;
     text-align: start;
     text-justify: newspaper;
@@ -12,7 +12,7 @@ body{
     transition-timing-function: cubic;
 }
 
-.about-me-title{
+.privacy-title{
     font-size: 2em;
     color: white;
     font-weight: 900;
@@ -22,27 +22,8 @@ body{
     transition-timing-function: cubic;
 }
 
-.name-header{
-    text-align: start;
-    font-size: 4em;
-}
-
-.page-content {
-    height: auto;
-    display: flex;
-    width: 100%;
-    margin: 40px;
-    justify-content: center;
-}
-
-p > em{
-    transition: color 300ms;
-}
-
-p > em:hover{
-    color: orange;
-}
-
 section{
     margin: 80px 40px;
+    box-sizing: border-box;
+    overflow-y: auto;
 }
