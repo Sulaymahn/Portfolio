@@ -1,0 +1,48 @@
+body{
+    overflow-y: auto;
+}
+
+.about-me {
+    font-size: 1.6em;
+    text-align: start;
+    text-justify: newspaper;
+    color: white;
+    font-weight: 400;
+    transition: font-size 0.6s;
+    transition-timing-function: cubic;
+}
+
+.about-me-title{
+    font-size: 4em;
+    color: white;
+    font-weight: 900;
+    margin: 0px;
+    text-shadow: 8px 8px #03055e3b;
+    transition: transform 100ms, font-size 0.6s;
+    transition-timing-function: cubic;
+}
+
+.name-header{
+    text-align: start;
+    font-size: 4em;
+}
+
+.page-content {
+    height: auto;
+    display: flex;
+    width: 100%;
+    margin: 40px;
+    justify-content: center;
+}
+
+p > em{
+    transition: color 300ms;
+}
+
+p > em:hover{
+    color: orange;
+}
+
+section{
+    margin: 80px 40px;
+}

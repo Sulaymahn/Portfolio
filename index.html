@@ -13,21 +13,21 @@
     <script src="https://kit.fontawesome.com/8d710ea6d3.js" crossorigin="anonymous"></script>
 </head>
 
-<body style="height: 100vh; width: 100vw;">
-    <main style="height: 100%;">
-        <header class="nav-header">
-                <img class="nav-logo" src="Assets/Images/sulaymahn_logo.svg" alt="sulaymahn logo">
-                <p class="nav-title">SM.</p>
-        </header>
-        <section style="display: flex; justify-content: center; align-items: center; height: 100%;">
-            <div>
-                <p class="name-header">Sulaiman Mukhtar</p>
-                <p class="short-skill-description">Xamarin Forms, Unity and ASP .NET Core Developer</p>
-            </div>
-        </section>
-        <footer style="width: 100%; height: auto; padding: 16px 32px; position: fixed; bottom: 0px; box-sizing: border-box;"
-            id="links">
-            <div style="height: 100%; text-align: center; width: 100%;">
+<body>
+    <header class="top-bar">
+        <div class="nav-header">
+            <img class="nav-logo" src="Assets/Images/sulaymahn_logo.svg" alt="sulaymahn logo">
+            <p class="nav-title">SM.</p>
+        </div>
+        <div class="nav-links">
+            <a style="display: none;" class="nav-link" href="#">Budjet</a>
+            <a class="nav-link" href="aboutme.html">About me</a>
+        </div>
+    </header>
+    <section class="page-content">
+            <p class="name-header">Sulaiman Mukhtar</p>
+            <p class="short-skill-description">.NET Developer - Xamarin forms, ASP.NET Core, Blazor and Unity.</p>
+            <div class="social-links">
                 <a title="my email" href="mailto:sulmuk28@gmail.com" target="_blank"
                     class="fa-solid fa-envelope social-link"></a>
                 <a title="GitHub" href="https://github.com/Sulaymahn" target="_blank"
@@ -38,11 +38,12 @@
                     class="fa-brands fa-instagram social-link"></a>
                 <a title="Twitter" href="https://twitter.com/unghostdude" target="_blank"
                     class="fa-brands fa-twitter social-link"></a>
-            </div>
-            <p class="copyright">Copyright © 2023 Sulaiman Mukhtar.
-                All rights reserved.</p>
-        </footer>
-    </main>
+        </div>
+    </section>
+    <footer class="page-footer">
+        <p class="copyright">Copyright © 2023 Sulaiman Mukhtar.
+            All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
