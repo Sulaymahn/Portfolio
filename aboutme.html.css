@@ -27,14 +27,6 @@ body{
     font-size: 4em;
 }
 
-.page-content {
-    height: auto;
-    display: flex;
-    width: 100%;
-    margin: 40px;
-    justify-content: center;
-}
-
 p > em{
     transition: color 300ms;
 }
