@@ -1,4 +1,4 @@
-.privacy-statement {
+.about-me {
     font-size: 1.4em;
     text-align: justify;
     color: white;
@@ -7,7 +7,7 @@
     transition-timing-function: cubic;
 }
 
-.privacy-title{
+.about-me-title{
     font-size: 2em;
     color: white;
     font-weight: 900;
@@ -17,12 +17,22 @@
     transition-timing-function: cubic;
 }
 
+p > em{
+    transition: color 300ms;
+}
+
+p > em:hover{
+    color: orange;
+}
+
 section{
-    margin: 80px 20vw;
+    margin: 80px auto;
+    width: 680px;
 }
 
 @media screen and (max-width: 800px) {
     section{
         margin: 80px 40px;
+        width: auto;
     }
 }

@@ -228,9 +228,3 @@ div.social-links{
         font-size: 2em;
     }
 }
-
-@media screen and (max-width: 500px){
-    .name-header {
-        font-size: 4em;
-    }
-}
