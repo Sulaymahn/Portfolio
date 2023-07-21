@@ -17,13 +17,13 @@
     transition-timing-function: cubic;
 }
 
-section{
+section.page-content{
     margin: 80px auto;
     width: 680px;
 }
 
 @media screen and (max-width: 800px) {
-    section{
+    section.page-content{
         margin: 80px 40px;
         width: auto;
     }
