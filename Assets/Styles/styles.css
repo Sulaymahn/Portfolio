@@ -13,16 +13,14 @@
 }
 
 :root {
-    --primarycolor: #2e3192;
-    --secondarycolor: #0077b6;
-    --tertiarycolor: rgb(39, 39, 169);
+    --primarycolor: #29235c;
+    --secondarycolor: #6158af;
+    --tertiarycolor: #29235c;
 }
 
 html {
     overflow: auto;
-}
-
-body {
+    transition: background-image 0.5s;
     font-family: 'Darker Grotesque', Outfit, Verdana, sans-serif;
     background-color: var(--primarycolor);
     background-image: linear-gradient(135deg, var(--primarycolor), var(--secondarycolor), var(--tertiarycolor));
@@ -31,8 +29,11 @@ body {
     animation-name: bg-anim;
     animation-duration: 15s;
     animation-iteration-count: infinite;
+}
+
+body {
+    background-image: url('/portfolio-site/Assets/Images/my_brand_pattern.png');
     margin: 0px 0px;
-    transition: background-image 0.5s;
     overflow: auto;
     min-height: 100vh;
     max-width: 100vw;
@@ -116,7 +117,7 @@ a.nav-link:hover {
 }
 
 .name-header {
-    font-size: 10em;
+    font-size: 8vw;
     text-align: center;
     color: white;
     font-weight: 900;
@@ -132,7 +133,7 @@ a.nav-link:hover {
 }
 
 .short-skill-description {
-    font-size: 2.6em;
+    font-size: 2vw;
     text-align: center;
     color: white;
     font-weight: 400;
