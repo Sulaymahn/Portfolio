@@ -1,0 +1,122 @@
+:root{
+    --light-text-color: #e2d8c6;
+    --light-background-color: #723544;
+    --dark-text-color: #f4f1eb;
+    --dark-background-color: #2b77a4;
+
+    --text-color: var(--light-text-color);
+    --background-color: var(--light-background-color);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.my-name, .job-title{
+    transition: color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.my-name{
+    font-weight:900;
+    font-size: 2.625em; /* 168px / 16px */
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+p.short-description{
+    font-family: 'Lora', serif;
+    font-size: 0.875em;
+    color: var(--text-color);
+    text-align: end;
+    margin-bottom: 12.4370956147%;
+}
+
+.job-title{
+    font-weight: 400;
+    font-size: 1.125em;
+    color: var(--text-color);
+}
+
+img.my-logo{
+    max-width: 16.510172144%;
+    object-fit: contain;
+}
+
+.hero{
+    background-color: var(--background-color);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: background-color 0.3s linear;
+}
+
+.full-page-hero{
+    height: 100svh;
+    width: 100svw;
+    box-sizing: border-box;
+    padding: 6.1111111%;
+}
+
+.hero-footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 50%;
+}
+
+.copyright-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright{
+    font-size: 0.4375em;
+    color: var(--text-color);
+}
+
+.interest-container{
+    height: min-content;
+    background-color: var(--text-color);
+}
+
+.title{
+    font-weight:900;
+    font-size: 2.625em;
+    text-transform: uppercase;
+    color: var(--background-color);
+}
+
+.subtitle{
+    font-weight: 400;
+    font-size: 1.125em;
+    color: var(--background-color);
+}
+
+.interests{
+    list-style-type: none;
+    margin-top: 10%;
+}
+.interests>li{
+    box-sizing: border-box;
+    display: inline-block;
+    text-transform:uppercase;
+    color: var(--background-color);
+    font-size: 1.4em;
+    white-space: nowrap;
+    border: 2px solid var(--background-color);
+    padding: 1% 2%;
+    margin-bottom: 2%;
+    transition: background-color 0.3s linear, color 0.3s linear;
+}
+.interests>li:hover{
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
